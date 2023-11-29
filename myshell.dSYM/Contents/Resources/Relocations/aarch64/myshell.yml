@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ahmedmashaal/MySesh/myshell'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _execute_command, symObjAddr: 0x0, symBinAddr: 0x100003190, symSize: 0x124 }
+  - { offsetInCU: 0x49, offset: 0x49, size: 0x8, addend: 0x0, symName: _execute_command, symObjAddr: 0x0, symBinAddr: 0x100003190, symSize: 0x124 }
+  - { offsetInCU: 0x97, offset: 0x97, size: 0x8, addend: 0x0, symName: _execute_pipeline, symObjAddr: 0x124, symBinAddr: 0x1000032B4, symSize: 0x1E4 }
+  - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: _execute_command_with_redirection, symObjAddr: 0x308, symBinAddr: 0x100003498, symSize: 0x188 }
+  - { offsetInCU: 0x195, offset: 0x195, size: 0x8, addend: 0x0, symName: _execute_command_with_wildcard, symObjAddr: 0x490, symBinAddr: 0x100003620, symSize: 0x8C }
+  - { offsetInCU: 0x1E3, offset: 0x1E3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x51C, symBinAddr: 0x1000036AC, symSize: 0x738 }
+...
